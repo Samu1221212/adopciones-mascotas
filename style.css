@@ -1,0 +1,99 @@
+/* --- GLOBAL --- */
+body {
+    background-color: #f4f9ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- TÍTULOS --- */
+h1, h2, h3 {
+    color: #2d3436;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* --- TEXTOS --- */
+p, .markdown-text-container {
+    color: #34495e;
+    font-size: 1.05em;
+}
+
+.stMarkdown ul {
+    padding-left: 1.5em;
+}
+
+/* --- BOTONES --- */
+.stButton>button {
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6em 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #74b9ff;
+}
+
+/* --- SELECTBOX Y SLIDER --- */
+.stSelectbox label, .stSlider label, .stRadio label {
+    font-weight: 600;
+    color: #2d3436;
+}
+
+/* --- FORMULARIOS --- */
+.css-1cpxqw2 {
+    background-color: #ffffff;
+    border: 1px solid #dfe6e9;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* --- MÉTRICAS --- */
+.stMetric {
+    background-color: #dfe6e9;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* --- ÉXITO, ADVERTENCIA, ERROR --- */
+.stAlert {
+    border-radius: 10px;
+}
+
+.stAlert[data-testid="stAlert-success"] {
+    background-color: #dff9fb;
+    color: #0984e3;
+}
+
+.stAlert[data-testid="stAlert-error"] {
+    background-color: #ffeaa7;
+    color: #d63031;
+}
+
+.stAlert[data-testid="stAlert-warning"] {
+    background-color: #fff9c4;
+    color: #fd7e14;
+}
+
+/* --- CUADROS DE DATOS --- */
+.css-1d391kg {
+    background-color: #ffffff;
+    border: 1px solid #dfe6e9;
+    border-radius: 10px;
+}
+
+/* --- PIE DE PÁGINA --- */
+footer {
+    visibility: hidden;
+}
