@@ -8,4 +8,4 @@ torch
 seaborn
 matplotlib
 plotly
-sklearn
+scikit-learn
