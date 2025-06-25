@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+gtts
+speechrecognition
+transformers
+torch
+seaborn
+matplotlib
+plotly
